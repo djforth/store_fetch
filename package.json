@@ -1,11 +1,16 @@
 {
   "name": "@djforth/fido",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "A module to fetch and store data",
   "main": "index.js",
   "repository": "git@github.com:djforth/store_fetch.git",
   "author": "Adrian Stainforth <adrian.stainforth@gmail.com>",
   "license": "MIT",
+  "browserslist": [
+    ">0.25%",
+    "IE >= 11",
+    "not op_mini all"
+  ],
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
     "build:watch": "NODE_ENV=production rollup -c -w",
